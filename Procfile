@@ -1,1 +1,1 @@
-﻿web: rasa run --enable-api --cors "*" --port $PORT
+﻿web: bash -c 'sleep 10 && rasa run --enable-api --cors "*" --port $PORT'
